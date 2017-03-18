@@ -32,10 +32,11 @@ nav a
   line-height: 65px;
     /* es lo referente al espaciado del texto */
   text-decoration: none;
+  text-shadow: 1px 1px 1px grey;
   color: white;
   border-radius: 15px;
-  box-shadow: 5px 5px black;
-
+  box-shadow: 0px 0px  20px #00ffff;
+  /* */
 p {
 
 }
@@ -45,7 +46,7 @@ p {
 nav a:hover {
   background-color: #006666;
   text-decoration:  overline;
-  box-shadow:   5px 5px #00ffff;
+  box-shadow:   0px 0px 0px #ffffff, 0px 0px 10px #000000;
   /* Nombre prop
     hexadecimal de 6
     hexadecimal de 3
