@@ -1,4 +1,54 @@
 nav
 {
-  background-color: red ;
+  /* background-color: #000000 ; */
+  width: 600px;
+  height:100px;
+  margin: auto; /* Va del bode del contendor hacia afuera. Deja el contenedo en el centro*/
 }
+
+nav a
+{
+  /* MAQUETACION DE LA BARRA DE NAVEGACIÓN */
+  background-color: #006680;
+  width: 100px;
+  height: 70px;
+  display: block;
+    /*compartamiendo dentro del controrno
+        inline
+        block: muestra los elementos en bloques, como las imagenes.
+        inline-block Son cajas que se comportan como linea. Tiene como defecto que deja unos espacios y puede afectar la maquetacion  */
+  float: left;
+    /* acomoda de manera horizontal los bloques de la barra sin los espacios.*/
+  margin: 15px 25px;
+  /* Solo funciona para un elemente que este dentro de su padre. Cuando se pone un valor lo hace entre las cajas
+  El primero es para las verticales y segundo para las horizontales
+  margin-top: ;
+  margin-bottom: ;
+  margin-left: ;
+  margin-right: ; */
+
+  /* EDICION DE TEXTO */
+  text-align: center;
+  line-height: 65px;
+    /* es lo referente al espaciado del texto */
+  text-decoration: none;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px black;
+
+p {
+
+}
+
+}
+
+nav a:hover {
+  background-color: #006666;
+  text-decoration:  overline;
+  box-shadow:   5px 5px #00ffff;
+  /* Nombre prop
+    hexadecimal de 6
+    hexadecimal de 3
+    rgb
+    rgba
+  }
