@@ -36,9 +36,17 @@ nav a
   color: white;
   border-radius: 15px;
   box-shadow: 0px 0px  20px #00ffff,0px 0px  20px #000000 ;
-  /* */
-p {
-
+  /* Esto es para poner los bordes. Si se cae uno de los bloques, quiere decir que los bloques con los bordes superan la anchura del nav (no cabe) Se debe tener en cuenta para el cálculo del nav.
+    
+    Para poner un border se deben tener 3 aspectos básicos que son: color estilo y grosor. Si se hacen por aparte se realizaría de la siguierte manera. 
+    border-color: black;
+    border-style: ;
+    border-width: 2px;
+    border-top: white  Esto es para que solo se vea un borde en el top.
+    */
+    border: ;
+    
+  
 }
 
 }
@@ -51,5 +59,34 @@ nav a:hover {
     hexadecimal de 6
     hexadecimal de 3
     rgb
-    rgba
+    rgba*/ 
   }
+    
+/* ------------------------------------------------------------------------------------------------ */
+    
+    h1  { 
+        text-align: center;
+        margin: 60px 0;
+        
+        
+    }
+    
+    
+
+footer {
+
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px; /* del borde hacia adentro; es como un margin*/ 
+    margin-top: 60px;
+    
+}
+
+
+body {
+ margin: 0px;   
+}
+    
+    
+    
