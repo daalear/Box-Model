@@ -1,6 +1,6 @@
 nav
 {
-  /* background-color: #000000 ; */
+  background-color: rgba(0,0,0,0.7 ) ;
   width: 600px;
   height:100px;
   margin: auto; /* Va del bode del contendor hacia afuera. Deja el contenedo en el centro*/

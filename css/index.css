@@ -1,0 +1,36 @@
+section {
+    /*background-color: aquamarine;*/
+           
+}
+
+section article {
+   
+    /*background-color: cadetblue;*/
+    width: 960px;
+    height:600px;
+    margin: auto;
+    
+    
+    margin-top: 60px;
+}
+    section article h2{
+        margin: 0;
+        padding:  25px 0 10px 50px;
+        font-size: 40px;
+    
+}
+    
+
+    section article p {
+   
+    /*background-color: bisque;*/
+    margin: 0 30px 0 50px  ;
+    width: 480px;
+    float: left;
+    
+}
+
+
+section article img {
+    border: saddlebrown solid 5px;
+}
